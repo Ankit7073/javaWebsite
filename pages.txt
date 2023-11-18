@@ -1,0 +1,81 @@
+page1 - 1D
+page2 - strings
+page3 - input output
+page4 - awt
+page5 - 2d
+page6 - exception
+page7 - multithreading
+page8 - inheritance
+page9 - applets
+page10 - jdbc
+page11 - interface
+page12 - oops
+page13 - packages
+page14 - functions
+page15 - delegation
+page16 - basic
+
+index.html:
+<a href="Page1.html" class="next-button" >Next Page</a>
+
+data conversion :
+<h3>1. How to convert long to String.</h3>
+                <pre>
+                    <code>
+package BCA5Practical;
+
+public class LongToString 
+{
+    public static void main(String[] args) 
+    {
+        long l = 1232312212;
+        String str = String.valueOf(l);
+        System.out.println("l is a Long datatype " + l);
+        System.out.println("Long was converted to a String " + str);
+    }
+}
+                    </code>
+                </pre>
+                <img src="LongToString.png" alt="output">
+            </dd>
+            <dd>
+                <h3>2. How to convert String to double.</h3>
+                <pre>
+                    <code>
+package BCA5Practical;
+
+public class StringToDouble 
+{
+    public static void main(String[] args) 
+    {
+        String str = "0.5";
+        double D = Double.parseDouble(str);
+        System.out.println("String is " + str);
+        System.out.println("String Converted to a Double " + D);
+        System.out.println("Showing the String was converted to Double above " + (1 + D));
+    }
+}
+                    </code>
+                </pre>
+                <img src="StringToDouble.png" alt="output">
+            </dd>
+            <dd>
+                <h3>3. How to convert String to int.</h3>
+                <pre>
+                    <code>
+package BCA5Practical;
+
+public class StringToInt 
+{
+    public static void main(String[] args) 
+    {
+        String str = "123";
+        int i = Integer.parseInt(str);
+        System.out.println("String is " + str);
+        System.out.println("String Converted to an integer " + i);
+        System.out.println("Showing the String was converted to Integer above " + (1 + i));
+    }
+}
+                    </code>
+                </pre>
+                <img src="StringToInt.png" alt="output">

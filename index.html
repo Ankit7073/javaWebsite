@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Hub</title>
+	<style>
+		*{
+			font-family: 'Arial', sans-serif;
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		
+        header {
+			background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 2rem;
+        }
+
+		header::before{
+			content: '';
+			position: absolute;
+			inset: 0;
+			background: url('https://st4.depositphotos.com/18086274/21638/i/450/depositphotos_216383424-stock-photo-black-white-screen-coding-hacker.jpg') no-repeat;
+			background-size: cover;
+			z-index: -1;
+		}
+
+        header h1 {
+            font-size: 3.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        section {
+			width: 100vw;
+            padding: 2rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 2rem;
+			overflow: hidden;
+			background-color: #eee;
+        }
+
+        section > h1 {
+            color: #333;
+			font-size: 2.2rem;
+			margin-bottom: 2rem;
+        }
+
+        div {
+            display: flex;
+			width: 85%;
+            flex-wrap: wrap;
+            justify-content: space-around;
+			row-gap: 3rem;
+			column-gap: 40px;
+        }
+
+        div > a {
+            flex: 1 1 calc(30%);
+			min-width: 25rem;
+            background-color: #fff; 
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            transition: transform 0.2s ease-in-out;
+			cursor: pointer;
+			text-decoration: none;
+			color: #333;
+			font-weight: 600;
+			font-size: larger;
+        }
+
+        div > a:hover {
+            transform: scale(1.08);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            width: 100%;
+			column-count: 2;
+			padding: 1rem;
+        }
+	</style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Coding Hub</h1>
+        <p>Your Gateway to Java Programming</p>
+    </header>
+
+    <section>
+        <h1>Java Program Categories</h1>
+        <div>
+				<a href="Page1.html">1D Arrays</a>
+				<a href="Page5.html">2D Arrays</a>
+				<a href="Page9.html">Applets</a>
+				<a href="Page4.html">AWT</a>
+				<a href="Page3.html">Input Output</a>
+				<a href="Page8.html">Inheritance</a>
+				<a href="Page11.html">Interfaces</a>
+				<a href="Page6.html">Exception</a>
+				<a href="Page7.html">Multithreading</a>
+				<a href="Page10.html">JDBC</a>
+				<a href="Page12.html">OOPS</a>
+				<a href="Page13.html">Packages</a>
+				<a href="Page14.html">Functions</a>
+				<a href="#">Delegation Event Model</a>
+				<a href="Page16.html">Basic Constructs</a>
+				<a href="Page2.html">Strings</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>SUBMITTED BY Ankit Joshi</p>
+        <p style="margin-top: 1rem;">7073/21</p>
+        <p>SUBMITTED TO Mr Chetan Gupta</p>
+        <p style="margin-top: 1rem;">BCA 5th semester</p>
+    </footer>
+
+</body>
+</html>
