@@ -66,3 +66,12 @@ img {
     text-decoration: none;
     border-radius: 5px;
 }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    column-count: 2;
+    padding: 1rem;
+}
